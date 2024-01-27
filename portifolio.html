@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>document</title>
+        <meta charset=""utf-8>
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport"content="width-device-width,initial-scale=1.0">
+        <!---js files-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="color-1.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/skins/color-1.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+        <link rel="stylesheet" type="text/css" href="switcher.css">
+        <!--------=======style switcher=========-->
+        <link rel="stylesheet" type="text/css" href="color-1.css" class="alternate style" title="color-1">
+        <link rel="stylesheet" type="text/css" href="color-2.css" class="alternate style" title="color-2">
+        <link rel="stylesheet" type="text/css" href="color-3.css" class="alternate style" title="color-3">
+        <link rel="stylesheet" type="text/css" href="color-4.css" class="alternate style" title="color-4">
+        <link rel="stylesheet" type="text/css" href="color-5.css" class="alternate style" title="color-5">
+    <body>
+        <!---=== main container start ====-->
+        <div class="main-container">
+        <!-----====aside starts===-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>C</span>arlos</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="about.html" class="active"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="services.html" class="active"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="portifolio.html" class="active"><i class="fa fa-briefcase"></i>Portifolio</a></li>
+                <li><a href="contact.html" class="active"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!-- ==== aside end ====-->
+        <!-- === main content starts -->
+        <div class="main-content">
+            <!----== home section ends ====-->
+           <!---=== portifolio section start====-->
+           <section class="portifolio section">
+            <div class="container">
+                <div class="row">
+                <div class="section-title">
+                    <h2>portifolio</h2>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="portifolio-heading">
+                        <h2>My Last project :</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--===portifolio item start====-->
+                    <div class="portifolio-item">
+                        <div class="portifolio-item-inner">
+                            <div class="portifolio-img">
+                                <img src="images/testy0.jpg"alt="">
+                            </div>
+                        </div>
+                    </div>    
+                     <!--===portifolio item start====-->
+                     <div class="portifolio-item">
+                        <div class="portifolio-item-inner">
+                            <div class="portifolio-img">
+                                <img src="images/testy2.jpg"alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <!--===portifolio item start====-->
+                     <div class="portifolio-item">
+                        <div class="portifolio-item-inner">
+                            <div class="portifolio-img">
+                                <img src="images/testy3.jpg"alt="">
+                            </div>
+                        </div>
+                    </div>  
+                     <!--===portifolio item start====-->
+                     <div class="portifolio-item">
+                        <div class="portifolio-item-inner">
+                            <div class="portifolio-img">
+                                <img src="images/testy4.jpg"alt="">
+                            </div>
+                        </div>
+                    </div>  
+                     <!--===portifolio item start====-->
+                     <div class="portifolio-item">
+                        <div class="portifolio-item-inner">
+                            <div class="portifolio-img">
+                                <img src="images/testy5.jpg"alt="">
+                            </div>
+                        </div>
+                    </div>  
+                     <!--===portifolio item start====-->
+                     <div class="portifolio-item">
+                        <div class="portifolio-item-inner">
+                            <div class="portifolio-img">
+                                <img src="images/tesy6.jpg"alt="">
+                            </div>
+                        </div>
+                    </div>  
+                    <!--====portifolio item ends====-->
+                </div>
+            </div>
+           </section>
+           <div class="style-switcher">
+            <div class="style-switcher-toggler-s-icon">
+              <i class="fas fa-cog fa-spin"></i>  
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <h4>Theme colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div> 
+        </div>
+        </div>
+        <script src="switcher.js"></script>
+        <script src="main.js"></script>
+    </body>
+    </head>
+</html>
